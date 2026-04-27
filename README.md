@@ -5,9 +5,9 @@ A simple Todo web application built with Flask and deployed using Docker and Doc
 ## 🛠️ Tech Stack
 - **App:** Python Flask
 - **Containerization:** Docker, Docker Compose
-- **Infrastructure:** Terraform + AWS EC2 (Phase 2)
-- **CI/CD:** Jenkins (Phase 3)
-- **Monitoring:** Prometheus + Grafana (Phase 4)
+- **Infrastructure:** Terraform + AWS EC2 
+- **CI/CD:** Jenkins 
+- **Monitoring:** Prometheus + Grafana 
 
 ## 🏗️ Architecture
 
@@ -40,7 +40,7 @@ Your Machine → Docker Compose → Flask App (port 5000)
 
 Pull from DockerHub:
 
-    docker pull YOUR_DOCKERHUB_USERNAME/todo-app:v1
+    docker pull prasanna22kar/todo-app:v1
 
 ## 📌 Project Phases
 - [x] Phase 1 — Flask App + Docker + Docker Compose
